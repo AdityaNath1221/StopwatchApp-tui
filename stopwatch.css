@@ -24,6 +24,22 @@ TimeDisplay {
     dock: left;
 }
 
+.started #start {
+    display: none;
+}
+
+.started #stop {
+    display: block;
+}
+
+.stopped #start {
+    display: block;
+}
+
+.stopped #stop {
+    display: none;
+}
+
 #reset {
     dock: right;
 }
